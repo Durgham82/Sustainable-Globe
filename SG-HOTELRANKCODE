@@ -90,3 +90,5 @@ ranked_hotels = rank_hotels(hotels, criteria_weights)
 # Display ranked hotels
 for rank, hotel in enumerate(ranked_hotels, start=1):
     print(f"{rank}. {hotel['name']} - Score: {hotel['score']:.2f}")
+
+<script src="script.js"></script>
